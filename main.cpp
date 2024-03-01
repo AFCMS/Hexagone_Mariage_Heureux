@@ -4,8 +4,8 @@
 #include "Woman.hpp"
 
 int main() {
-    Man emmanuel("Emmanuel", "Macron", 46);
-    Woman jeanmi("Jean-Michel", "Macron", 70);
+    Man emmanuel("Emmanuel", "Dupont", 46);
+    Man jeanmi("Jean-Michel", "Durand", 70);
 
     emmanuel.setPartner(jeanmi);
     jeanmi.setPartner(emmanuel);

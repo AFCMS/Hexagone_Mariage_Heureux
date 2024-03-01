@@ -13,6 +13,7 @@ class Man: public Person {
 protected:
     std::optional<Person> partner;
 public:
+    Man();
     Man(std::string firstName, std::string lastName, int age);
     bool isSingle();
     std::optional<Person> getPartner();

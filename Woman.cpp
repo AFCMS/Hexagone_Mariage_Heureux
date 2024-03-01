@@ -28,6 +28,6 @@ void Woman::display() {
     }
 }
 
-Woman::Woman(std::string firstName, std::string lastName, int age) : Person(std::move(firstName), std::move(lastName), age) {
+Woman::Woman() : Person() {}
 
-}
+Woman::Woman(std::string firstName, std::string lastName, int age) : Person(std::move(firstName), std::move(lastName), age) {}

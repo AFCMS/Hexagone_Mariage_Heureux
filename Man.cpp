@@ -29,6 +29,6 @@ void Man::display() {
     }
 }
 
-Man::Man(std::string firstName, std::string lastName, int age) : Person(std::move(firstName), std::move(lastName), age) {
+Man::Man() : Person() {}
 
-}
+Man::Man(std::string firstName, std::string lastName, int age) : Person(std::move(firstName), std::move(lastName), age) {}
